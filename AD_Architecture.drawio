@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T03:03:56.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="y5pshe_7KgY0JXMF4t7v" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-28T03:07:34.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-c-z_BhxfAY-7jV2u-lZ" version="14.7.0" type="github">
   <diagram id="4jmj68S6x0aWC6QBNpU3" name="Page-1">
     <mxGraphModel dx="2692" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,9 @@
         <mxCell id="Qap0fLW_GG_LP9776kVZ-6" value="Subnet:ACL" style="shape=mxgraph.ibm.box;prType=subnet;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#E6F0E2;rounded=0;whiteSpace=wrap;html=1;strokeColor=#00882B;strokeWidth=1;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
           <mxGeometry x="-690" y="293.2" width="140" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="Qap0fLW_GG_LP9776kVZ-41" value="EC2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="Qap0fLW_GG_LP9776kVZ-6">
+          <mxGeometry x="120" y="1.8000000000000114" width="20" height="23" as="geometry" />
+        </mxCell>
         <mxCell id="bCeK4MnwxXuD67tKos-r-31" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-660" y="321.9" width="80" height="61.920000000000016" as="geometry" />
         </mxCell>
@@ -174,6 +177,9 @@
         <mxCell id="bCeK4MnwxXuD67tKos-r-40" value="로그인 서비스" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/flask-128.png;strokeColor=#000000;" parent="bCeK4MnwxXuD67tKos-r-38" vertex="1">
           <mxGeometry x="24.893091675862394" y="16.89821363329018" width="45.021786366709826" height="45.021786366709826" as="geometry" />
         </mxCell>
+        <mxCell id="Qap0fLW_GG_LP9776kVZ-40" value="EC2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="Qap0fLW_GG_LP9776kVZ-8">
+          <mxGeometry x="120" y="-0.339999999999975" width="20" height="23" as="geometry" />
+        </mxCell>
         <mxCell id="Qap0fLW_GG_LP9776kVZ-20" value="Subnet:ACL" style="shape=mxgraph.ibm.box;prType=subnet;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#E6F0E2;rounded=0;whiteSpace=wrap;html=1;strokeColor=#00882B;strokeWidth=1;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
           <mxGeometry x="-410" y="292.86" width="140" height="120" as="geometry" />
         </mxCell>
@@ -188,6 +194,9 @@
         </mxCell>
         <mxCell id="bCeK4MnwxXuD67tKos-r-29" value="메인화면 서비스" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/flask-128.png;strokeColor=#000000;" parent="bCeK4MnwxXuD67tKos-r-27" vertex="1">
           <mxGeometry x="24.893091675862394" y="16.89821363329018" width="45.021786366709826" height="45.021786366709826" as="geometry" />
+        </mxCell>
+        <mxCell id="Qap0fLW_GG_LP9776kVZ-38" value="EC2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="Qap0fLW_GG_LP9776kVZ-20">
+          <mxGeometry x="120" width="20" height="23" as="geometry" />
         </mxCell>
         <mxCell id="Qap0fLW_GG_LP9776kVZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.274;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="Qap0fLW_GG_LP9776kVZ-30" target="bCeK4MnwxXuD67tKos-r-20">
           <mxGeometry relative="1" as="geometry" />
@@ -215,6 +224,9 @@
         </mxCell>
         <mxCell id="Qap0fLW_GG_LP9776kVZ-30" value="Internet Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58536;gradientColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-709.5" y="148" width="49.5" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Qap0fLW_GG_LP9776kVZ-39" value="EC2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="295" width="20" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
